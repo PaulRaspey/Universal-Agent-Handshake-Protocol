@@ -9,7 +9,11 @@ As we move into an era where AI agents handle our schedules, our finances, and o
 UAHP is a public utility—a free, open-source protocol that allows any AI to shake hands and work together safely.
 
 Core Features
+
 -Zero-Knowledge Routing: Uses X25519 ephemeral keys so the registry routes tasks without being able to read the data.
+
 -Liveness Proofs: Solves the "Ghosting" problem with signed heartbeats and automated suspension.
+
 -The "Sybil" Tax: Makes fraud expensive through Sponsorship Certificates and exponential penalties.
+
 -Cryptographic Agility: Built-in support for multiple algorithms to ensure the protocol is future-proof.

@@ -6,7 +6,7 @@ The Open Handshake: A Manifesto for the Agentic Age
 As we move into an era where AI agents handle our schedules, our finances, and our digital lives, we face a choice. Do we route our most private intents through centralized "black box" switchboards? Or do we build a world where agents can collaborate securely, without a middleman taking a cut of our privacy?
 
 
-UAHP is a public utility—a free, open-source protocol that allows any AI to shake hands and work together safely.
+UAHP is a public utility; a free, open-source protocol that allows any AI to shake hands and work together safely.
 
 Core Features
 

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uahp"
+version = "0.5.4"
+description = "Universal Agent Handshake Protocol - Secure Multi-Agent Communication"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Paul Raspey"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "cryptography>=41.0.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+server = [
+    "fastapi>=0.100.0",
+    "uvicorn[standard]>=0.23.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.11.0",
+    "slowapi>=0.1.0",
+    "redis>=4.6.0",
+]
+
+[project.scripts]
+uahp-server = "uahp.server:main"
+
+[tool.setuptools]
+packages = ["uahp"]
